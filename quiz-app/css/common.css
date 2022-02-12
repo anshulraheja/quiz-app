@@ -17,3 +17,6 @@ a{
 body{
     background: var(--COLOR-BODY);
 }
+img {
+    width: 100%;
+}
