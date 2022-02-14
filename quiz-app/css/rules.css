@@ -1,0 +1,54 @@
+.rules-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.info_box{
+    max-width: 33.75rem;
+    background: var(--COLOR-WHITE);
+    border-radius: 0.5rem;
+}
+.info-title{
+    height: 3.75rem;
+    border-bottom: 1px solid var(--COLOR-BORDER);
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.info-list{
+    padding: 1rem 2rem;
+}
+.info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+.rule-btn-container{
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    border-top: 1px solid var(--COLOR-BORDER);
+}
+.rule-btn-container > .btn-quit,
+.rule-btn-container > .btn-start{
+    padding: 0.5rem 0.75rem;
+    margin: 0 5px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid var(--COLOR-BODY);
+    color: var(--COLOR-BLACK);
+}
+.rule-btn-container .btn-quit{
+    color: var(--COLOR-BTN-QUIZ);
+}
+.rule-btn-container > .btn-quit:hover,
+.rule-btn-container > .btn-start:hover{
+    text-decoration: underline;
+}
