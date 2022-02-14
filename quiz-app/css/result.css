@@ -1,0 +1,56 @@
+.result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.result_box{
+    background: var(--COLOR-WHITE);
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 1.5rem 1.75rem;
+    width: 450px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.result_box{
+    font-size:6rem;
+    color: var(--COLOR-BODY);
+    margin-bottom: 10px;
+}
+.result_box .complete_text{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--COLOR-BLACK);
+    text-align: center;
+}
+.result_box-btn{
+    display: flex;
+    margin: 1.25rem 0;
+}
+.result_box-btn-replay, .result_box-btn-quit{
+    margin: 0 0.6rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 1px solid var(--COLOR-BODY);
+    transition: all 0.3s ease;
+}
+.result_box-btn-replay{
+    color: var(--COLOR-WHITE);
+    background: var(--COLOR-BODY);
+}
+.result_box-btn-replay:hover{
+    background: var(--COLOR-BTN-NEXT-QUESTION);
+}
+.result_box-btn-quit{
+    color: var(--COLOR-BODY);
+    background: var(--COLOR-WHITE);
+}
+.result_box-btn-quit:hover{
+    color: var(--COLOR-WHITE);
+    background: var(--COLOR-BODY);
+}

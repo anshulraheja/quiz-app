@@ -135,10 +135,9 @@
     font-weight: 500;
     padding: 0 5px;
 }
-.quiz-box-footer button{
-    height: 40px;
-    padding: 0 13px;
-    font-size: 18px;
+.quiz-box-footer a{
+    padding: 0.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
     outline: none;
     color: var(--COLOR-WHITE);
@@ -146,6 +145,6 @@
     background: var(--COLOR-BODY);
     border: 1px solid var(--COLOR-BODY);
 }
-.quiz-box-footer button:hover{
+.quiz-box-footer a:hover{
     background: var(--COLOR-BTN-NEXT-QUESTION);
 }
